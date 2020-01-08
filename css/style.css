@@ -1,3 +1,5 @@
+/* update with webkits */
+
 * {
     padding: 0;
     margin: 0;
@@ -9,10 +11,13 @@ header {
     background-color: grey;
 }
     .navMobile {
-
-    }
-    .navFull {
         
+    }
+        .noScroll {
+            overflow: hidden;
+        }
+    .navFull {
+        display: none;
     }
 
 .experiance {
@@ -46,5 +51,10 @@ footer {
 }
 
 @media screen and (min-height: 800px) {
-
+    .navMobile {
+        display: none;
+    }
+    .navFull {
+        display: flex;
+    }
 }
