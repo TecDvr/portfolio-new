@@ -12,6 +12,15 @@ header {
 .experiance {
     height: 100vh;
 }
+    .one {
+        background-color: red;
+    }
+    .two {
+        background-color: yellow;
+    }
+    .three {
+        background-color: green;
+    }
 
 .about {
     height: 100vh;
@@ -31,5 +40,5 @@ footer {
 }
 
 @media screen and (min-height: 800px) {
-    
+
 }
