@@ -111,4 +111,6 @@
         text-decoration: none;
         -webkit-transition: 0.3s;
         transition: 0.3s;
+        font-size: 90px;
+        color: rgb(250, 249, 221);
     }
