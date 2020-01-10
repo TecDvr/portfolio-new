@@ -104,6 +104,7 @@
         flex-direction: column;
         position: relative;
         overflow-x: hidden;
+        opacity: 0;
     }
     .overlay a {
         text-decoration: none;

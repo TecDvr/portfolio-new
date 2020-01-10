@@ -1,11 +1,13 @@
 function hamburgerOpen() {
     let element = document.getElementById("myDIV");
 
-    if (element.classList == 'burger burger-rotate') {
+    if (element.classList == 'burger burger-rotate close') {
         element.classList.add('open')
+        element.classList.remove('close')
         document.getElementById("myNav").style.width = "100%";
     } else {
         element.classList.remove('open')
+        element.classList.add('close')
         document.getElementById("myNav").style.width = "0%";
     }
 }
@@ -17,17 +19,23 @@ function noScroll() {
     })
 }
 
-// fix, does not fade content
-function fadeMenu() {
-    $('body').on('click', '.burger', (e) => {
+function fadeIn() {
+    $('body').on('click', '.close', (e) => {
         e.preventDefault();
-        console.log('working');
-        $('.overlay-content').fadeIn('slow');
+        $('.overlay-content').animate({opacity: '0'}, 100);
+    })
+}
+
+function fadeOut() {
+    $('body').on('click', '.open', (e) => {
+        e.preventDefault();
+        $('.overlay-content').animate({opacity: '1'}, 2000);
     })
 }
 
 function runPortfolio() {
-    fadeMenu();
+    fadeIn();
+    fadeOut();
     noScroll();
 }
 

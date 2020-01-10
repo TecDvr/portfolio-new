@@ -261,4 +261,9 @@ footer {
         width: 70%;
         margin: 40px;
     }
+
+    .aboutDescription {
+        margin: 10px 20% 30px 20%;
+        text-align: left;
+    }
 }
