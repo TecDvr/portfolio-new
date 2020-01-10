@@ -140,15 +140,15 @@ header {
     }
     .catch {
         font-size: 20px;
-        margin: 10px 0px 10px 0px;
+        margin: 20px 0px 30px 0px;
     }
     .techStack {
         font-size: 20px;
-        margin: 10px 0px 15px 0px;
+        margin: 10px 0px 0px 0px;
     }
     .experiance ul {
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 10px;
     }
     .experiance li {
         list-style: none;
@@ -161,16 +161,31 @@ header {
         justify-content: center;
         align-items: center;
     }
-        .buttonCluster a {
+/* clean up repeat code on buttons */
+        .goTo {
+            text-align: center;
             text-decoration: none;
-            width: 300px;
-            font-size: 37px;
+            width: 250px;
+            font-size: 30px;
             color: rgb(255, 255, 247);
             margin: 20px 10px 0px 10px;
             padding: 10px 10px 0px 10px;
             border: none;
-            border-radius: 20px;
+            border-radius: 50px;
             background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+        }
+        .github {
+            text-align: center;
+            text-decoration: none;
+            width: 250px;
+            font-size: 30px;
+            color: rgb(0, 46, 107);;
+            margin: 20px 10px 0px 10px;
+            padding: 10px 10px 0px 10px;
+            border: 2px solid rgb(0, 46, 107);
+            border-radius: 50px;
+            opacity: 0.7;
+
         }
 
 footer {
