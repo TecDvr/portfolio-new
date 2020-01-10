@@ -114,29 +114,29 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(247, 243, 226);
+    
 }
     .description {
         margin: 0px 20px 0px 20px;
     }
     .projectImg {
         width: 90%;
-        margin: 0px 0px 0px 0px;
+        margin: 10px 0px 0px 0px;
     }
     .one {
         background-color: #508E83;
+        color: rgb(247, 243, 226);
     }
     .two {
-        background-color: rgb(68, 120, 187);
-        
+        background-color: rgb(247, 243, 226);
+        color: #508E83;
     }
     .three {
-        background-color: rgb(255, 255, 247);
+        background-color: #599DC2;
+        color: rgb(247, 243, 226);
     }
     .appTitle {
         font-size: 30px;
-        color: rgb(0, 46, 107);
-        opacity: 0.7;
     }
     .catch {
         font-size: 20px;
@@ -166,27 +166,45 @@ header {
             text-align: center;
             text-decoration: none;
             width: 250px;
-            font-size: 30px;
-            color: rgb(255, 255, 247);
+            font-size: 25px;
             margin: 20px 10px 0px 10px;
             padding: 10px 10px 0px 10px;
             border: none;
             border-radius: 50px;
-            background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
         }
         .github {
             text-align: center;
             text-decoration: none;
             width: 250px;
-            font-size: 30px;
-            color: rgb(0, 46, 107);;
+            font-size: 25px;
             margin: 20px 10px 0px 10px;
             padding: 10px 10px 0px 10px;
-            border: 2px solid rgb(0, 46, 107);
             border-radius: 50px;
-            opacity: 0.7;
-
         }
+            .reframeButtonGo {
+                color: #508E83;
+                background-color: rgb(54, 114, 103);
+            }
+            .reframeButtonGit {
+                color: rgb(52, 109, 98);
+                border: 3px solid rgb(52, 109, 98);
+            }
+            .hydrateButtonGo {
+                color: rgb(247, 243, 226);
+                background-color: rgb(214, 208, 179);
+            }
+            .hydrateButtonGit {
+                color: rgb(214, 208, 179);
+                border: 3px solid rgb(214, 208, 179);
+            }
+            .slackButtonGo {
+                color: #599DC2;
+                background-color: rgb(68, 126, 158);
+            }
+            .slackButtonGit {
+                color: rgb(68, 126, 158);
+                border: 3px solid rgb(68, 126, 158);
+            }
 
 footer {
     height: 25vh;
