@@ -17,7 +17,17 @@ function noScroll() {
     })
 }
 
+// fix, does not fade content
+function fadeMenu() {
+    $('body').on('click', '.burger', (e) => {
+        e.preventDefault();
+        console.log('working');
+        $('.overlay-content').fadeIn('slow');
+    })
+}
+
 function runPortfolio() {
+    fadeMenu();
     noScroll();
 }
 

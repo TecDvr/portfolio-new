@@ -9,11 +9,13 @@
         <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/hamburger.css">
+<!-- clean up font links -->
         <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css'>
         <link href='https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap' rel='stylesheet'>
         <link href="https://fonts.googleapis.com/css?family=Grand+Hotel|Megrim|Sacramento|Sue+Ellen+Francisco|
         Syncopate&display=swap" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Orbitron|Sacramento' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css?family=Gayathri:400,700|Lato|Roboto&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -23,10 +25,10 @@
                 </div>
                 <div id='myNav' class='overlay'>
                     <div class='overlay-content'>
-                        <a target='_blank' href='https://github.com/TecDvr'><i class='fab fa-github'></i></a>
-                        <a target='_blank' href='https://www.linkedin.com/in/zacharygwirtz/'><i class='fab fa-linkedin'></i></a>
-                        <a target='_blank' href='mailto:zachgw@gmail.com'><i class='far fa-envelope'></i></a>
-                        <a href="Zach Gwirtz - Resume.pdf" download><i class="fas fa-file-download"></i></a>
+                        <a target='_blank' href='https://github.com/TecDvr'><i class='fab fa-github'></i> github</a>
+                        <a target='_blank' href='https://www.linkedin.com/in/zacharygwirtz/'><i class='fab fa-linkedin'></i> linkedin</a>
+                        <a target='_blank' href='mailto:zachgw@gmail.com'><i class='far fa-envelope'></i> email</a>
+                        <a href="Zach Gwirtz - Resume.pdf" download><i class="fas fa-file-download"></i> resume</a>
                     </div>
                 </div>
             </nav>
@@ -38,32 +40,52 @@
             </nav>
             <div class="title">
                 <h1>Zachary Gwirtz</h1>
-                <p>web development</p>
-                <p>inspired by adventure</p>
+                <p>Web development</p>
+                <p>Inspired by adventure</p>
             </div>
         </header>
         <section class="myWork">
-            <div class="circle">
-                <p><i class="fas fa-code"></i></p>
+            <div class='about' aria-label='Mountain Background'>
+                <h2>hello,</h2>
+                <p class='aboutDescription'>I am a web developer, technical diver and avid explorer drawing upon my experiences in the unknown. I love software development and the unique problems it presents.</p>
+                <p class='location'><i class="fas fa-map-pin"></i> Seattle, wa</p>
+                <!-- <p class="help">I can help you with</p>
+                <ul class='whatIDo'>
+                    <li><i class='fas fa-globe'></i> web.dev</li>
+                    <li><i class='fas fa-swatchbook'></i> ui.deisgn</li>
+                    <li><i class='fas fa-user-friends'></i> ux.design</li>
+                    <li><i class='far fa-object-group'></i> wireframing</li>
+                    <li><i class='fas fa-sliders-h'></i> sound.design</li>
+                    <li><i class='fas fa-camera-retro'></i> photo.video</li>
+                </ul> -->
             </div>
-            <h3>projetcs i've been working on</h3>
+            <p class="arrow"><i class="fas fa-chevron-down"></i></p>
+            <div class="circle"></div>
+            <h3>Projects i've been working on.</h3>
         </section>
 
         <section class="experiance one">
             <img class='projectImg' src="./assets/reframe.png"/>
-            <h3>reframe</h3>
-            <p>Some of the hardest lessons in our life are learned from our very own mistakes. While some repeat the same mistake again and again, others choose to reframe their mistakes into something they can take away</p>
-            <p>The best way to learn from your mistakes is by exploring the cause. Reframe helps you to do just that by pinning down the root of the problem, reframing the mistake with guided steps and formulating a game plan to ensure you're able to learn and not repeat!</p>
-            <p>TECH STACK</p>
-            <ul>
-                <li>React.js</li>
-                <li>JavaScript</li>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>PostgreSQL</li>
-            </ul>
+            <div class="description">
+                <h3 class="appTitle"><i class='far fa-image mainIcon'></i> REFRAME</h3>
+                <p class="catch">A platform to help you reframe your mistakes and learn from them, not repeat them</p>
+                <p class="techStack">Tech Stack <i class="fas fa-server"></i></p>
+                <ul>
+                    <li>React.js</li>
+                    <li>JavaScript</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>PostgreSQL</li>
+                </ul>
+                <div class="buttonCluster">
+                    <a target='_blank' href='https://reframe.now.sh/'>GO TO APP <i class='fas fa-globe'></i></a>
+                    <a target='_blank' href='https://github.com/TecDvr'>GITHUB <i class='fab fa-github'></i></a>
+                </div>
+                <!-- <p>Some of the hardest lessons in our life are learned from our very own mistakes. While some repeat the same mistake again and again, others choose to reframe their mistakes into something they can take away</p>
+                <p>The best way to learn from your mistakes is by exploring the cause. Reframe helps you to do just that by pinning down the root of the problem, reframing the mistake with guided steps and formulating a game plan to ensure you're able to learn and not repeat!</p> -->
+            </div>
         </section>
         <section class="experiance two">
             <img class='projectImg' src="./assets/hydrate.png"/>
@@ -85,19 +107,6 @@
 
         </section>
 
-        <section class="about">
-            <h2>about</h2>
-            <p>Web designer, technical diver and avid explorer drawing upon my experiences in the unknown</p>
-            <p>seattle, wa</p>
-            <ul>
-                <li>web.dev</li>
-                <li>ui.design</li>
-                <li>ux.design</li>
-                <li>wireframing</li>
-                <li>sound.design</li>
-                <li>photo.video</li>
-            </ul>
-        </section>
         <footer>
             <div class="contactCluster">
                 <a target='_blank' href='https://github.com/TecDvr'><button class='contactButton'><i class='fab fa-github'></i> github</button></a>

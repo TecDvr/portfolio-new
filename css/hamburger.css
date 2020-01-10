@@ -102,8 +102,6 @@
     .overlay-content {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         position: relative;
         overflow-x: hidden;
     }
@@ -111,6 +109,7 @@
         text-decoration: none;
         -webkit-transition: 0.3s;
         transition: 0.3s;
-        font-size: 90px;
+        font-size: 60px;
         color: rgb(250, 249, 221);
+        padding: 10px 0px 10px 0px;
     }
