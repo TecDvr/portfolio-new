@@ -3,7 +3,8 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     font-family: 'Gayathri', sans-serif;
 
 }
@@ -29,7 +30,8 @@ header {
         width: 100%;
         top: 30%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
         color: rgb(0, 46, 107);
     }
         .title h1 {
@@ -43,10 +45,19 @@ header {
 
 .myWork {
     min-height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     background-color: rgb(247, 243, 226);
 }
     .myWork h2 {
@@ -81,9 +92,15 @@ header {
         background-position: center;
         background-size: cover;
         border-radius: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         font-size: 70px;
         margin: 50px 0px 20px 0px;
     }
@@ -96,10 +113,19 @@ header {
 
 .experiance {
     min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     
 }
     .description {
@@ -143,10 +169,19 @@ header {
         margin: 0px 10px 0px 10px;
     }
     .buttonCluster {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 /* clean up repeat code on buttons */
         .goTo {
@@ -212,10 +247,19 @@ footer {
     background-image: url(../assets/Asset\ 2.png);
     background-position: center;
     background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     color: rgb(0, 46, 107);
 }
     .contactButton {
@@ -226,15 +270,17 @@ footer {
         background-color: rgb(0, 0, 0, 0);
     }
 
-@media screen and (min-width: 600px) and (max-width: 799px) {
+/* @media screen and (min-width: 600px) and (max-width: 799px) {
 
-}
+} */
 
 @media screen and (min-width: 800px) {
     .navMobile {
         display: none;
     }
     .navFull {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
     .navFull a {
@@ -287,7 +333,10 @@ footer {
         width: 60%
     }
     .buttonCluster {
-        flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
     }
 
     .contactButton {
