@@ -306,8 +306,8 @@ footer {
     }
         .about h2 {
             font-size: 100px;
+            margin: 20px 0px 40px 0px;
         }
-
     .aboutDescription {
         margin: 10px 20% 30px 20%   ;
         text-align: left;
