@@ -22,14 +22,14 @@ function noScroll() {
 function fadeIn() {
     $('body').on('click', '.close', (e) => {
         e.preventDefault();
-        $('.overlay-content').animate({opacity: '0'}, 100);
+        $('.overlay-content').animate({opacity: '0'}, 50);
     })
 }
 
 function fadeOut() {
     $('body').on('click', '.open', (e) => {
         e.preventDefault();
-        $('.overlay-content').animate({opacity: '1'}, 2000);
+        $('.overlay-content').animate({opacity: '1'}, 1200);
     })
 }
 

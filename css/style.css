@@ -10,7 +10,6 @@
 
 header {
     height: 100vh;
-    /* animate all pieces on scroll. custom background */
     background-image: url(../assets/Asset\ 2.png);
     background-position: center;
     background-size: cover;
@@ -51,12 +50,13 @@ header {
     background-color: rgb(247, 243, 226);
 }
     .myWork h2 {
+        margin-top: 20px;
         font-family: 'Grand Hotel', cursive;
         font-size: 70px;
         color: #508E83;
     }
     .about {
-        padding: 30px 30px 30px 30px;
+        width: 80%;
         text-align: center;
         font-size: 20px;
         color: rgb(0, 46, 107);
@@ -74,27 +74,13 @@ header {
         color: #508E83;
         opacity: 0.6;
     }
- /* clean up unused code like .help */
-    .help {
-        font-size: 30px;
-    }
-    .about ul {
-        list-style: none;
-        text-align: center;
-        margin: 10px 0px 0px 0px;
-    }
-    .about li {
-        display: inline-block;
-        margin: 0px 10px 0px 10px;
-    }
     .circle {
         height: 150px;
         width: 150px;
-        background-image: url(../assets/mountains.png);
+        background-image: url(../assets/Asset\ 2.png);
         background-position: center;
         background-size: cover;
         border-radius: 100%;
-        margin-bottom: 25px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -117,7 +103,7 @@ header {
     
 }
     .description {
-        margin: 0px 20px 0px 20px;
+        width: 80%;
     }
     .projectImg {
         width: 80%;
@@ -134,7 +120,7 @@ header {
     }
     .three {
         background-color: rgb(247, 243, 226);
-        color: #508E83;
+        color: rgb(0, 46, 107);
     }
     .appTitle {
         font-size: 30px;
@@ -145,7 +131,7 @@ header {
     }
     .techStack {
         font-size: 20px;
-        margin: 10px 0px 0px 0px;
+        margin: 10px 0px 10px 0px;
     }
     .experiance ul {
         text-align: center;
@@ -193,7 +179,6 @@ header {
             .hydrateButtonGo {
                 color: #599DC2;
                 background-color: rgb(33, 86, 116);
-                
             }
             .hydrateButtonGit {
                 color: rgb(33, 86, 116);
@@ -223,8 +208,8 @@ header {
             }
 
 footer {
-    height: 25vh;
-    background-image: url(../assets/mountains.png);
+    height: 20vh;
+    background-image: url(../assets/Asset\ 2.png);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -239,11 +224,7 @@ footer {
         margin: 0px 10px 20px 10px;
     }
 
-@media screen and (min-height: 380px) {
-
-}
-
-@media screen and (min-height: 600px) and (max-height: 799px) {
+@media screen and (min-width: 600px) and (max-width: 799px) {
 
 }
 
@@ -254,22 +235,65 @@ footer {
     .navFull {
         display: flex;
     }
-
-    .title h1 {
-        font-size: 100px;
-        margin-bottom: 10px;
-    }
-    .title p {
+    .navFull a {
+        text-decoration: none;
+        color: rgb(0, 46, 107);
         font-size: 20px;
+        margin: 10px 10px 10px 10px;
     }
 
-    .projectImg {
-        width: 70%;
-        margin: 40px;
+    .title {
+        top: 45%;
     }
+        .title h1 {
+            font-size: 100px;
+            margin-bottom: 10px;
+        }
+        .title p {
+            font-size: 20px;
+        }
+
+    .about {
+        margin-top: 40px;
+    }
+        .about h2 {
+            font-size: 100px;
+        }
 
     .aboutDescription {
         margin: 10px 20% 30px 20%   ;
         text-align: left;
     }
+
+    .circle {
+        height: 250px;
+        width: 250px;
+        margin: 50px 0px 20px 0px;
+    }
+    .myWork h3 {
+        font-size: 25px;
+        color: #508E83;
+        margin: 25px 0px 40px 0px;
+        font-weight: normal;
+    }
+
+    .projectImg {
+        width: 60%;
+        margin: 80px 40px 0px 40px;
+    }
+    .description {
+        width: 60%
+    }
+    .buttonCluster {
+        flex-direction: row;
+    }
+
+    .contactButton {
+        color: rgb(0, 46, 107);
+        font-size: 25px;
+        margin: 0px 10px 20px 10px;
+        border: none;
+        background-color: rgb(0, 0, 0, 0);
+    }
+
 }
