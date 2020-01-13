@@ -9,6 +9,34 @@
 
 }
 
+.preload {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: #599DC2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+    .preload-finish {
+        opacity: 0;
+        pointer-events: none;
+    }
+    .biner {
+        animation: carabiner 0.5s ease infinite alternate;
+    }
+
+@keyframes carabiner {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-50px);
+    }
+}
+
 header {
     height: 100vh;
     background-image: url(../assets/Asset\ 2.png);

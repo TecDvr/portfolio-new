@@ -1,3 +1,8 @@
+window.addEventListener('load', () => {
+    const preload = document.querySelector('.preload');
+    preload.classList.add('preload-finish');
+});
+
 function hamburgerOpen() {
     let element = document.getElementById("myDIV");
 
