@@ -241,7 +241,7 @@ header {
             -ms-flex-align: center;
                 align-items: center;
     }
-/* clean up repeat code on buttons */
+
         .goTo {
             text-align: center;
             text-decoration: none;
@@ -328,9 +328,15 @@ footer {
         background-color: rgb(0, 0, 0, 0);
     }
 
-/* @media screen and (min-width: 600px) and (max-width: 799px) {
-
-} */
+@media screen and (min-width: 600px) and (max-width: 799px) {
+    .title h1 {
+        font-size: 100px;
+        margin-bottom: 10px;
+    }
+    .title p {
+        font-size: 30px;
+    }
+}
 
 @media screen and (min-width: 800px) {
     .biner {
