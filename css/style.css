@@ -165,8 +165,14 @@ header {
     .myWork h3 {
         font-size: 25px;
         color: #508E83;
-        margin: 0px 0px 20px 0px;
+        margin: 0px 0px 10px 0px;
         font-weight: normal;
+    }
+    .sneakPeak {
+        color: #508E83;
+        width: 80%;
+        margin-bottom: 20px;
+        text-align: center;
     }
 
 .experiance {
@@ -389,8 +395,11 @@ footer {
     .myWork h3 {
         font-size: 25px;
         color: #508E83;
-        margin: 25px 0px 40px 0px;
+        margin: 25px 0px 30px 0px;
         font-weight: normal;
+    }
+    .sneakPeak {
+        margin-bottom: 40px;
     }
 
     .projectImg {
