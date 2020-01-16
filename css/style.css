@@ -206,11 +206,10 @@ header {
     .two {
         background-color: #599DC2;
         color: rgb(247, 243, 226);
-        
     }
     .three {
-        background-color: rgb(247, 243, 226);
-        color: rgb(0, 46, 107);
+        background-color: #C2595F;
+        color: rgb(247, 243, 226);
     }
     .appTitle {
         font-size: 30px;
@@ -283,12 +282,12 @@ header {
                 border: 3px solid rgb(33, 86, 116);
             }
             .slackButtonGo {
-                color: rgb(247, 243, 226);
-                background-color: rgb(168, 156, 97);
+                color: #C2595F;
+                background-color: rgb(131, 38, 43);
             }
             .slackButtonGit {
-                color: rgb(168, 156, 97);
-                border: 3px solid rgb(168, 156, 97);
+                color: rgb(131, 38, 43);
+                border: 3px solid rgb(131, 38, 43);
             }
             .arrowDown {
                 font-size: 25px;
@@ -302,7 +301,7 @@ header {
                 color: rgb(33, 86, 116);
             }
             .white {
-                color: rgb(168, 156, 97);
+                color: rgb(131, 38, 43);
             }
 
 footer {
