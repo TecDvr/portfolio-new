@@ -247,7 +247,6 @@ header {
             -ms-flex-align: center;
                 align-items: center;
     }
-
         .goTo {
             text-align: center;
             text-decoration: none;
@@ -308,9 +307,7 @@ header {
 
 footer {
     height: 20vh;
-    background-image: url(../assets/Asset\ 2.png);
-    background-position: center;
-    background-size: cover;
+    background: rgb(247, 243, 226);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -332,6 +329,27 @@ footer {
         margin: 0px 10px 20px 10px;
         border: none;
         background-color: rgb(0, 0, 0, 0);
+    }
+.whatIdo {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../assets/Asset\ 2.png);
+    background-position: center;
+    background-size: cover;
+    color: rgb(0, 46, 107);
+}
+    .whatIdo ul {
+        text-align: center;
+        width: 80%;
+        margin: 10px 0px 10px 0px;
+    }
+    .whatIdo li {
+        list-style: none;
+        display: inline-block;
+        margin: 10px;
+        font-size: 15px;
     }
 
 @media screen and (min-width: 600px) and (max-width: 799px) {
@@ -414,6 +432,11 @@ footer {
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row;
+    }
+
+    .whatIdo li {
+        margin: 20px;
+        font-size: 20px;
     }
 
     .contactButton {
