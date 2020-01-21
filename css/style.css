@@ -200,15 +200,19 @@ header {
         margin: 40px 0px 0px 0px;
     }
     .one {
-        background-color: #508E83;
+        /* background-color: #508E83; */
+        background-color: #42756C;
         color: rgb(247, 243, 226);
     }
     .two {
-        background-color: #599DC2;
+        /* background-color: #599DC2; */
+        background-color: #508E83;
+       
         color: rgb(247, 243, 226);
     }
     .three {
-        background-color: #C2595F;
+        /* background-color: #C2595F; */
+        background-color: #2C4F49;
         color: rgb(247, 243, 226);
     }
     .appTitle {
@@ -266,28 +270,28 @@ header {
             border-radius: 50px;
         }
             .reframeButtonGo {
-                color: #508E83;
-                background-color: rgb(44, 92, 83);
+                color: #42756C;
+                background-color: rgb(23, 53, 47);
             }
             .reframeButtonGit {
-                color: rgb(44, 92, 83);
-                border: 3px solid rgb(44, 92, 83);
+                color: rgb(23, 53, 47);
+                border: 3px solid rgb(23, 53, 47);
             }
             .hydrateButtonGo {
-                color: #599DC2;
-                background-color: rgb(33, 86, 116);
+                color: #508E83;
+                background-color: rgb(35, 61, 56);
             }
             .hydrateButtonGit {
-                color: rgb(33, 86, 116);
-                border: 3px solid rgb(33, 86, 116);
+                color: rgb(35, 61, 56);
+                border: 3px solid rgb(35, 61, 56);
             }
             .slackButtonGo {
-                color: #C2595F;
-                background-color: rgb(131, 38, 43);
+                color: #2C4F49;
+                background-color: rgb(8, 15, 13);
             }
             .slackButtonGit {
-                color: rgb(131, 38, 43);
-                border: 3px solid rgb(131, 38, 43);
+                color: rgb(8, 15, 13);
+                border: 3px solid rgb(8, 15, 13);
             }
             .arrowDown {
                 font-size: 25px;
