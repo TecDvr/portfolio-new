@@ -5,6 +5,8 @@ window.addEventListener('load', ()=> {
     }, 1000);
 });
 
+const rellax = new Rellax('header')
+
 function hamburgerOpen() {
     let element = document.getElementById("myDIV");
 

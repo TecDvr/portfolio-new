@@ -103,6 +103,8 @@ header {
 
 .myWork {
     min-height: 200px;
+    position: relative;
+    z-index: 10;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
