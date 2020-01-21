@@ -3,8 +3,7 @@
 * {
     padding: 0;
     margin: 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     font-family: 'Gayathri', sans-serif;
 }
 
@@ -15,17 +14,13 @@
     height: 100vh;
     background: rgb(247, 243, 226);
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
             flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
             align-items: center;
     z-index: 100;
     -webkit-transition: opacity 1s ease;
@@ -106,17 +101,13 @@ header {
     position: relative;
     z-index: 10;
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
             flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
             align-items: center;
     background-color: rgb(247, 243, 226);
 }
@@ -153,13 +144,10 @@ header {
         background-size: cover;
         border-radius: 100%;
         display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
                 justify-content: center;
         -webkit-box-align: center;
-            -ms-flex-align: center;
                 align-items: center;
         font-size: 70px;
         margin: 50px 0px 20px 0px;
@@ -180,17 +168,13 @@ header {
 .experiance {
     min-height: 100vh;
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
             flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
             align-items: center;
     
 }
@@ -239,17 +223,13 @@ header {
     }
     .buttonCluster {
         display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
-            -ms-flex-direction: column;
                 flex-direction: column;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
                 justify-content: center;
         -webkit-box-align: center;
-            -ms-flex-align: center;
                 align-items: center;
     }
         .goTo {
@@ -314,17 +294,13 @@ footer {
     height: 20vh;
     background: rgb(247, 243, 226);
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
             flex-direction: column;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
             align-items: center;
     color: rgb(0, 46, 107);
 }
@@ -338,9 +314,12 @@ footer {
     }
 .whatIdo {
     min-height: 20vh;
+    display: -webkit-box;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
     background-image: url(../assets/Asset\ 2.png);
     background-position: center;
     background-size: cover;
@@ -378,7 +357,6 @@ footer {
     }
     .navFull {
         display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
     }
     .navFull a {
@@ -436,7 +414,6 @@ footer {
     .buttonCluster {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
-            -ms-flex-direction: row;
                 flex-direction: row;
     }
 
