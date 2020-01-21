@@ -5,6 +5,16 @@ window.addEventListener('load', ()=> {
     }, 1000);
 });
 
+function parallax(element, distance, speed) {
+    const item = document.querySelector(element);
+    item.style.transform = `translateY(${distance * speed}px)`;
+};
+
+window.addEventListener('scroll', () => {
+    parallax('header', window.scrollY, 1);
+    parallax('.title', window.scrollY, 0.8);
+});
+
 function hamburgerOpen() {
     let element = document.getElementById("myDIV");
 
