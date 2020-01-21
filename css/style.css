@@ -200,17 +200,20 @@ header {
         margin: 40px 0px 0px 0px;
     }
     .one {
-        background-color: #508E83;
+        /* background-color: #508E83; */
+        background-color: #42756C;
         color: rgb(247, 243, 226);
     }
     .two {
-        background-color: #599DC2;
+        /* background-color: #599DC2; */
+        background-color: #508E83;
+       
         color: rgb(247, 243, 226);
-        
     }
     .three {
-        background-color: rgb(247, 243, 226);
-        color: rgb(0, 46, 107);
+        /* background-color: #C2595F; */
+        background-color: #2C4F49;
+        color: rgb(247, 243, 226);
     }
     .appTitle {
         font-size: 30px;
@@ -267,28 +270,28 @@ header {
             border-radius: 50px;
         }
             .reframeButtonGo {
-                color: #508E83;
-                background-color: rgb(44, 92, 83);
+                color: #42756C;
+                background-color: rgb(17, 44, 38);
             }
             .reframeButtonGit {
-                color: rgb(44, 92, 83);
-                border: 3px solid rgb(44, 92, 83);
+                color: rgb(17, 44, 38);
+                border: 3px solid rgb(17, 44, 38);
             }
             .hydrateButtonGo {
-                color: #599DC2;
-                background-color: rgb(33, 86, 116);
+                color: #508E83;
+                background-color: rgb(35, 61, 56);
             }
             .hydrateButtonGit {
-                color: rgb(33, 86, 116);
-                border: 3px solid rgb(33, 86, 116);
+                color: rgb(35, 61, 56);
+                border: 3px solid rgb(35, 61, 56);
             }
             .slackButtonGo {
-                color: rgb(247, 243, 226);
-                background-color: rgb(168, 156, 97);
+                color: #2C4F49;
+                background-color: rgb(8, 15, 13);
             }
             .slackButtonGit {
-                color: rgb(168, 156, 97);
-                border: 3px solid rgb(168, 156, 97);
+                color: rgb(8, 15, 13);
+                border: 3px solid rgb(8, 15, 13);
             }
             .arrowDown {
                 font-size: 25px;
@@ -296,13 +299,13 @@ header {
                 margin: 30px 0px 20px 0px;
             }
             .green {
-                color: rgb(44, 92, 83);
+                color: rgb(23, 53, 47);
             }
             .blue {
-                color: rgb(33, 86, 116);
+                color: rgb(35, 61, 56);
             }
             .white {
-                color: rgb(168, 156, 97);
+                color: rgb(8, 15, 13);
             }
 
 footer {
