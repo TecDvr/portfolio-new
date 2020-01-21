@@ -183,18 +183,14 @@ header {
         margin: 40px 0px 0px 0px;
     }
     .one {
-        /* background-color: #508E83; */
         background-color: #42756C;
         color: rgb(247, 243, 226);
     }
     .two {
-        /* background-color: #599DC2; */
         background-color: #508E83;
-       
         color: rgb(247, 243, 226);
     }
     .three {
-        /* background-color: #C2595F; */
         background-color: #2C4F49;
         color: rgb(247, 243, 226);
     }
