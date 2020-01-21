@@ -86,7 +86,12 @@ header {
     }
     .title {
         text-align: center;
-        position: relative;
+        position: absolute;
+        width: 100%;
+        top: 30%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
         color: rgb(0, 46, 107);
     }
         .title h1 {
